@@ -16,6 +16,7 @@
       repo: '',
 	  auto2top: true,
 	  loadSidebar: true,
+	  autoHeader: true,
 	  subMaxLevel: 2,
 	  loadNavbar: true,
 	  coverpage: true,
@@ -24,7 +25,13 @@
 		nextText: '下一篇',
 		crossChapter: true
 	  },
-	  notFoundPage: true
+	  notFoundPage: true,
+	  formatUpdated: '{MM}/{DD} {HH}:{mm}',
+	  formatUpdated: function(time) {
+		// ...
+
+		return time;
+	  }
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
