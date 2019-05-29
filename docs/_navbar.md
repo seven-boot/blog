@@ -1,2 +1,15 @@
-* [指南](/#如何学编程)
+* [指南](走向单体地狱.md)
 * [面试宝典](interview/)
+* 在线文档
+  * [Vue](https://cn.vuejs.org/v2/api/)
+  * [Vuex](https://vuex.vuejs.org/zh/api/#vuex-store)
+  * [jQuery](https://www.jquery123.com/)
+  * [Bootstrap](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
+* 在线工具
+  * [PDF 转化器](https://smallpdf.com/cn/pdf-to-word)
+  * [JSON 编辑器](https://www.bejson.com/jsoneditoronline)
+  * [MD 表格生成](https://tableconvert.com/)
+  * [代码格式化](http://tool.oschina.net/codeformat/html)
+  * [公式编辑器](https://zh.numberempire.com/latexequationeditor.php)
+  * [yml <--> properties](http://www.toyaml.com/)
+  * [二维码生成器](https://cli.im/)
