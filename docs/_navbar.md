@@ -1,5 +1,10 @@
 * [指南](走向单体地狱.md)
 * [面试宝典](interview/)
+* [随笔](essay/)
+* 快捷直达
+  * [单体技能](走向单体地狱.md)
+  * [Spring Cloud Netflix](spring-cloud-netflix/)
+  * [Docker](docs-docker/)
 * 在线文档
   * [Vue](https://cn.vuejs.org/v2/api/)
   * [Vuex](https://vuex.vuejs.org/zh/api/#vuex-store)
