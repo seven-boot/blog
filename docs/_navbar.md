@@ -1,6 +1,7 @@
 * [指南](走向单体地狱.md)
 * [面试宝典](interview/)
 * [随笔](essay/)
+* [补充知识](supplement/)
 * 快捷直达
   * [单体技能](走向单体地狱.md)
   * [Spring Cloud Netflix](spring-cloud-netflix/)
