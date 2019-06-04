@@ -13,3 +13,5 @@ Thymeleaf 是一个跟 Velocity、FreeMarker 类似的模板引擎，它可以�
 ## Spring Boot 整合 MyBatis
 
 [**开始学习**](spring-boot-mybatis/)
+
+**<P align="right">上次更新：{docsify-updated}</p>**

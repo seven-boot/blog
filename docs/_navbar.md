@@ -1,9 +1,10 @@
-* [指南](走向单体地狱.md)
+* [指南](如何学编程.md)
 * [面试宝典](interview/)
 * [随笔](essay/)
 * [补充知识](supplement/)
 * 快捷直达
-  * [单体技能](走向单体地狱.md)
+  * [单体应用技能](走向单体地狱.md)
+  * [微服务技能](微服务解决复杂问题.md)
   * [Spring Cloud Netflix](spring-cloud-netflix/)
   * [Docker](docs-docker/)
 * 在线文档

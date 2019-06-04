@@ -82,3 +82,5 @@ Zuul 持续跳票 1 年多，1.x 是一个基于阻塞 IO 的 API Gateway 以及
 #### Spring Boot external config + Spring Cloud Config
 
 Netflix 开源的组件（Archaius 1/Ribbon/Hystrix）都没有使用 Spring Boot 的规范（spring-boot-configuration-processor），根本没有 metadata.json 文件，于是这部分配置 IDE 无法给你提示
+
+**<P align="right">上次更新：{docsify-updated}</p>**

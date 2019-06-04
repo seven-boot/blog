@@ -168,3 +168,5 @@ management:
 打开浏览器访问：http://localhost:8084 会出现以下界面
 
 ![2018060105410004](assets/2018060105410004.png)
+
+**<P align="right">上次更新：{docsify-updated}</p>**
