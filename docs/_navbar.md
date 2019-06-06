@@ -6,6 +6,7 @@
   * [单体应用技能](走向单体地狱.md)
   * [微服务技能](微服务解决复杂问题.md)
   * [Spring Cloud Netflix](spring-cloud-netflix/)
+  * [Spring Cloud iToken](Spring-Cloud-iToken.md)
   * [Docker](docs-docker/)
 * 在线文档
   * [Vue](https://cn.vuejs.org/v2/api/)
