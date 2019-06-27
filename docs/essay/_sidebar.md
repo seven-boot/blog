@@ -14,8 +14,9 @@
   * [分布式和微服务的概念区分](essay/分布式和微服务的概念区分.md)
   * [一个域名如何解析到多个ip地址](essay/一个域名如何解析到多个ip地址.md)
 * **Mysql**
-  * [Mysql count(1) 真的比 count(*) 快么?](essay/mysql-count(1).md)
+  * [Mysql count(1) 真的比 count(*) 快么?](essay/mysql-count(1)-记录查询速度对比.md)
 * **踩过的坑**
   * [Boolean 和 boolean](essay/Boolean-和-boolean.md)
+  * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
 * **随笔**
   * [做人的基本原则](essay/做人的基本原则.md)
