@@ -22,6 +22,4 @@
   * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
 * **随笔**
   * [做人的基本原则](essay/做人的基本原则.md)
-  * [农民分金条](essay/农民分金条.md)
-  * [两柱香问题](essay/两柱香问题.md)
-  * [终生受用的一个题](essay/终生受用的一个题.md)
+  * [智力题](essay/智力题.md)
