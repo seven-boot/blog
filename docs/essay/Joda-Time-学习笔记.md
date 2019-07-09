@@ -266,3 +266,27 @@ System.out.println(dateTime.toString("yyyy-MM-dd HH:mm:ss"));
 2019-06-14 16:25:55
 ```
 
+## 计算两个时间相差 天、小时、分钟、秒
+
+```java
+DateTime d1 = new DateTime(2019, 7, 8, 13, 51, 46);
+DateTime d2 = DateTime.now();
+System.out.println(Days.daysBetween(d1, d2).getDays() + "天");
+System.out.println(Hours.hoursBetween(d1, d2).getHours() + "小时");
+System.out.println(Minutes.minutesBetween(d1, d2).getMinutes() + "分钟");
+System.out.println(Seconds.secondsBetween(d1, d2).getSeconds() + "秒");
+
+1天
+24小时
+1443分钟
+86612秒
+```
+
+```java
+Date d1;
+Date d2;
+Interval interval = new Interval(d1.getTime(), d2.getTime());
+Period p = interval.toPeriod();
+System.out.println("时间相差："+p.getDays()+" 天 " + p.getHours()+ " 小时 "+p.getMinutes()+" 分钟"+p.getSeconds()+" 秒");
+```
+
