@@ -17,5 +17,6 @@
   * [Spring Boot 配置 CORS](supplement/Spring-Boot-配置-CORS.md)
 * **Fiddler**
 * **其他**
+  * [Git 过滤文件](supplement/Git-过滤文件.md)
   * [Kaptcha](supplement/使用-Google-Kaptcha-生成验证码.md)
   * [解决 Maven 无法自动下载依赖的问题](supplement/解决-Maven-无法自动下载依赖的问题.md)
