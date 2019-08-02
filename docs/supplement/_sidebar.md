@@ -3,6 +3,7 @@
 * **Java 工具类**
   * [HttpServletUtils](supplement/HttpServletUtils.md)
   * [CookieUtils](supplement/CookieUtils.md)
+  * [字符串BASE64加密](supplement/字符串BASE64加密.md)
   * [RegexpUtils](supplement/RegexpUtils.md)
   * [MapperUtils](supplement/MapperUtils.md)
 * **JavaScript 工具类**
