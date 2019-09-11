@@ -14,7 +14,21 @@
   * [你怎么理解 RPC 框架](interview/你怎么理解-RPC-框架.md)
   * [说说 Dubbo 的实现原理](interview/说说-Dubbo-的实现原理.md)
 * **数据存储**
+  * [说说 SQL 优化之道](interview/说说-SQL-优化之道.md)
   * [limit 20000 加载很慢怎么解决](interview/limit-20000-加载很慢怎么解决.md)
+  * [选择合适的分布式主键方案](interview/选择合适的分布式主键方案.md)
+  * [选择合适的数据存储方案](interview/选择合适的数据存储方案.md)
+* **缓存使用**
+  * [Redis 有哪些类型](interview/Redis-有哪些类型.md)
+  * [Redis 内部结构](interview/Redis-内部结构.md)
+  * [Redis 内存淘汰机制](interview/Redis-内存淘汰机制.md)
+  * [聊聊 Redis 使用场景](interview/聊聊-Redis-使用场景.md)
+  * [Redis 持久化机制](interview/Redis-持久化机制.md)
+  * [Redis 集群方案与实现](interview/Redis-集群方案与实现.md)
+  * [Redis 为什么是单线程的](interview/Redis-为什么是单线程的.md)
+  * [缓存崩溃](interview/缓存崩溃.md)
+  * [缓存降级](interview/缓存降级.md)
+  * [使用缓存的合理性问题](interview/使用缓存的合理性问题.md)
 * **面试题补充**
   * [递归面试题](interview/递归.md)
   * [概述](interview/补充.md)
