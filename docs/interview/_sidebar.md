@@ -1,12 +1,26 @@
 * **Java 基础**
   * [面向对象的特征](interview/面向对象的特征.md)
   * [final, finally, finalize 的区别](interview/final-finally-finalize-的区别.md)
+  * [int 和 Integer 有什么区别](interview/int-和-Integer-有什么区别.md)
+  * [重载和重写的区别](interview/重载和重写的区别.md)
+  * [抽象类和接口有什么区别](interview/抽象类和接口有什么区别.md)
+  * [说说反射的用途及实现](interview/说说反射的用途及实现.md)
+  * [说说自定义注解的场景及实现](interview/说说自定义注解的场景及实现.md)
+  * [Http 请求的 Get 与 Post 方式的区别](interview/Http-请求的-Get-与-Post-方式的区别.md)
   * [session 与 cookie 的区别](interview/session-与-cookie-的区别.md)
   * [session 分布式处理](interview/session-分布式处理.md)
   * [equals 与 == 的区别](interview/equals-与-==-的区别.md)
   * [什么是事务，为什么要用事务？](interview/什么是事务-为什么要用事务.md)
 * **Java 集合**
   * [List 和 Set 区别](interview/List-和-Set-区别.md)
+  * [List 和 Map 区别](interview/List-和-Map-区别.md)
+  * [ArrayList 和 LinkedList 区别](interview/ArrayList-和-LinkedList-区别.md)
+  * [ArrayList 和 Vector 区别](interview/ArrayList-和-Vector-区别.md)
+  * [HashMap 和 HashTable 的区别](interview/HashMap-和-HashTable-的区别.md)
+  * [HashSet 和 HashMap 区别](interview/HashSet-和-HashMap-区别.md)
+  * [HashMap 和 ConcurrentHashMap 的区别](interview/HashMap-和-ConcurrentHashMap-的区别.md)
+  * [HashMap 的工作原理及代码实现](interview/HashMap-的工作原理及代码实现.md)
+  * [ConcurrentHashMap 的工作原理及代码实现](interview/ConcurrentHashMap-的工作原理及代码实现.md)
 * **设计模式**
   * [什么是Iaas, Paas, Saas 及其区别](interview/什么是Iaas-Paas-Saas-及其区别.md)
 * **微服务**
