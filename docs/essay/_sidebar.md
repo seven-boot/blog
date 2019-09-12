@@ -18,7 +18,7 @@
 * **Mysql**
   * [Mysql count(1) 真的比 count(*) 快么?](essay/mysql-count(1)-记录查询速度对比.md)
 * **Redis**
-  * [Redis Set 应用场景：微信微博点赞](essay/Redis-Set-应用场景：微信微博点赞.md)
+  * [Redis Set 应用场景：微信微博点赞、收藏](essay/Redis-Set-应用场景：微信微博点赞、收藏.md)
 * **踩过的坑**
   * [Boolean 和 boolean](essay/Boolean-和-boolean.md)
   * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
