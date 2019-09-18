@@ -14,6 +14,11 @@ ZREVRANGE key start stop [WITHSCORES]		// 倒序获取有序集合key从start下
 
 ```sql
 ZUNIONSTORE destkey numkeys key [key ...] 	// 并集计算
+--Redis Zunionstore 命令计算给定的一个或多个有序集的并集，其中给定 key 的数量必须以 numkeys 参数指定，并将该并集(结果集)储存到 destination 。
+--默认情况下，结果集中某个成员的分数值是所有给定集下该成员分数值之和 。
+--返回值
+--保存到 destination 的结果集的成员数量。
+
 ZINTERSTORE destkey numkeys key [key ...] 	// 交集计算
 ```
 
@@ -45,7 +50,14 @@ ZREVRANGE hotNews:20190918 0 10 WITHSCORES	// 倒叙获得有序集合hotNews:20
     8) 2.0
 3.七日搜索榜单计算
 ZUNIONSTORE hotNews:20190912-20190918 7 hotNews:20190912 hotNews:20190913 hotNews:20190914 hotNews:20190915 hotNews:20190916 hotNews:20190917 hotNews:20190918
+    >ZUNIONSTORE hotNews:20190917-20190918 2 hotNews:20190917 hotNews:20190918
+    "2"
 4.展示七日排行前十
 ZREVRANGE hotNews:20190912-20190918 0 9 WITHSCORES
+    >ZREVRANGE hotNews:20190917-20190918 0 9 WITHSCORES
+     1)  "今天918"
+     2)  "3"
+     3)  "周杰伦新歌评分"
+     4)  "1"
 ```
 
