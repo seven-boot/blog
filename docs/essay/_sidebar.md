@@ -29,5 +29,6 @@
   * [Boolean 和 boolean](essay/Boolean-和-boolean.md)
   * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
 * **随笔**
+  * [经典算法题：两个大数相乘](essay/经典算法题：两个大数相乘.md)
   * [做人的基本原则](essay/做人的基本原则.md)
   * [智力题](essay/智力题.md)
