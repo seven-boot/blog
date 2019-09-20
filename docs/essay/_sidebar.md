@@ -10,6 +10,7 @@
   * [Java += 操作符实质](essay/Java-+=-操作符实质.md)
   * [将数组转换为 List](essay/将数组转换为-List.md)
   * [如何将 String 转换为 int](essay/如何将-String-转换为-int.md)
+  * [Java 8 之方法引用](essay/Java-8-之方法引用.md)
 * **概念**
   * [分布式和微服务的概念区分](essay/分布式和微服务的概念区分.md)
   * [一个域名如何解析到多个ip地址](essay/一个域名如何解析到多个ip地址.md)
