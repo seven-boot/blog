@@ -45,6 +45,8 @@
   * [缓存崩溃](interview/缓存崩溃.md)
   * [缓存降级](interview/缓存降级.md)
   * [使用缓存的合理性问题](interview/使用缓存的合理性问题.md)
+* **设计模式**
+  * [说说你对设计模式的理解](interview/说说你对设计模式的理解.md)
 * **面试题补充**
   * [递归面试题](interview/递归.md)
   * [概述](interview/补充.md)
