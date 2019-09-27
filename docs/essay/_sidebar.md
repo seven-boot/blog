@@ -37,5 +37,7 @@
   * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
 * **随笔**
   * [经典算法题：两个大数相乘](essay/经典算法题：两个大数相乘.md)
+  * [人生三碗面](essay/人生三碗面.md)
+  * [人生三大桌](essay/人生三大桌.md)
   * [做人的基本原则](essay/做人的基本原则.md)
   * [智力题](essay/智力题.md)
