@@ -12,6 +12,7 @@
   * [如何将 String 转换为 int](essay/如何将-String-转换为-int.md)
   * [Java 8 之方法引用](essay/Java-8-之方法引用.md)
   * [Java 8 四大核心函数式接口](essay/Java-8-四大核心函数式接口.md)
+  * [Random 类](essay/Random-类.md)
 * **概念**
   * [分布式和微服务的概念区分](essay/分布式和微服务的概念区分.md)
   * [一个域名如何解析到多个ip地址](essay/一个域名如何解析到多个ip地址.md)
@@ -20,6 +21,7 @@
 * **Mysql**
   * [Mysql count(1) 真的比 count(*) 快么?](essay/mysql-count(1)-记录查询速度对比.md)
   * [Mysql 排行榜](essay/Mysql-排行榜.md)
+  * [Mysql 有则更新，无则插入](essay/Mysql-有则更新-无则插入.md)
 * **Mybatis**
   * [Mybatis #{} 和 ${} 的区别](essay/Mybatis中两种赋值方式的区别.md)
 * **JSON**
