@@ -19,8 +19,9 @@
   * [再看悲观锁和乐观锁](essay/再看悲观锁和乐观锁.md)
 * **Mysql**
   * [Mysql count(1) 真的比 count(*) 快么?](essay/mysql-count(1)-记录查询速度对比.md)
+  * [Mysql 排行榜](essay/Mysql-排行榜.md)
 * **Mybatis**
-  * [Mybatis #{} 和 ${} 的区别](essay/Mybatis-#{}-和-${}-的区别.md)
+  * [Mybatis #{} 和 ${} 的区别](essay/Mybatis中两种赋值方式的区别.md)
 * **JSON**
   * [FastJson](essay/FastJson-应用.md)
 * **Redis**
