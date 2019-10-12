@@ -6,6 +6,7 @@
   * [字符串BASE64加密](supplement/字符串BASE64加密.md)
   * [RegexpUtils](supplement/RegexpUtils.md)
   * [MapperUtils](supplement/MapperUtils.md)
+  * [取指定区间内的随机数](supplement/取指定区间内的随机数.md)
 * **JavaScript 工具类**
   * [DateTime](supplement/DateTime.md)
 * **JavaScript 插件**

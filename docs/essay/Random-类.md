@@ -61,5 +61,3 @@ void setSeed(long seed)
 ​    1） Random random = new Random（555L）；
 
 ​    2） Random random = new Random（）；random.setSeed（555L）；
-
-## 
