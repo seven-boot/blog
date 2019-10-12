@@ -19,6 +19,7 @@
   * [一个域名如何解析到多个ip地址](essay/一个域名如何解析到多个ip地址.md)
   * [浅入悲观锁和乐观锁](essay/浅入悲观锁和乐观锁.md)
   * [再看悲观锁和乐观锁](essay/再看悲观锁和乐观锁.md)
+  * [阿里推荐：集合初始化时，指定集合容量大小](essay/集合初始化时-指定集合容量大小.md)
 * **Mysql**
   * [Mysql count(1) 真的比 count(*) 快么?](essay/mysql-count(1)-记录查询速度对比.md)
   * [Mysql 排行榜](essay/Mysql-排行榜.md)

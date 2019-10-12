@@ -12,6 +12,7 @@
   * [equals 与 == 的区别](interview/equals-与-==-的区别.md)
   * [什么是事务，为什么要用事务？](interview/什么是事务-为什么要用事务.md)
 * **Java 集合**
+  * [HashMap](interview/HashMap.md)
   * [List 和 Set 区别](interview/List-和-Set-区别.md)
   * [List 和 Map 区别](interview/List-和-Map-区别.md)
   * [ArrayList 和 LinkedList 区别](interview/ArrayList-和-LinkedList-区别.md)
