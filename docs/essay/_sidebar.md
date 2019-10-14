@@ -11,6 +11,7 @@
   * [Java += 操作符实质](essay/Java-+=-操作符实质.md)
   * [将数组转换为 List](essay/将数组转换为-List.md)
   * [如何将 String 转换为 int](essay/如何将-String-转换为-int.md)
+  * [Java 8 Stream API](essay/Java-8-Stream-API.md)
   * [Java 8 之方法引用](essay/Java-8-之方法引用.md)
   * [Java 8 四大核心函数式接口](essay/Java-8-四大核心函数式接口.md)
   * [Random 类](essay/Random-类.md)
@@ -46,6 +47,7 @@
   * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
 * **随笔**
   * [经典算法题：两个大数相乘](essay/经典算法题：两个大数相乘.md)
+  * [经典算法题：倒水问题](essay/经典算法题：倒水问题.md)
   * [人生三碗面](essay/人生三碗面.md)
   * [人生三大桌](essay/人生三大桌.md)
   * [做人的基本原则](essay/做人的基本原则.md)
