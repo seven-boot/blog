@@ -23,6 +23,7 @@
 * **Mysql**
   * [Mysql count(1) 真的比 count(*) 快么?](essay/mysql-count(1)-记录查询速度对比.md)
   * [Mysql 排行榜](essay/Mysql-排行榜.md)
+  * [Mysql 运算符和函数](essay/Mysql-运算符和函数.md)
   * [Mysql 有则更新，无则插入](essay/Mysql-有则更新-无则插入.md)
 * **Mybatis**
   * [Mybatis #{} 和 ${} 的区别](essay/Mybatis中两种赋值方式的区别.md)
