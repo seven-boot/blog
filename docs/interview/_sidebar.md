@@ -2,7 +2,9 @@
   * [面向对象的特征](interview/面向对象的特征.md)
   * [final, finally, finalize 的区别](interview/final-finally-finalize-的区别.md)
   * [int 和 Integer 有什么区别](interview/int-和-Integer-有什么区别.md)
+  * [String、StringBuffer 和 StringBuilder 的区别](interview/String-StringBuffer-和-StringBuilder-的区别.md)
   * [重载和重写的区别](interview/重载和重写的区别.md)
+  * [为什么要使用迭代器](interview/为什么要使用迭代器.md)
   * [抽象类和接口有什么区别](interview/抽象类和接口有什么区别.md)
   * [说说反射的用途及实现](interview/说说反射的用途及实现.md)
   * [说说自定义注解的场景及实现](interview/说说自定义注解的场景及实现.md)
@@ -11,6 +13,8 @@
   * [session 分布式处理](interview/session-分布式处理.md)
   * [equals 与 == 的区别](interview/equals-与-==-的区别.md)
   * [什么是事务，为什么要用事务？](interview/什么是事务-为什么要用事务.md)
+  * [通用的分代垃圾回收机制](interview/通用的分代垃圾回收机制.md)
+  * [开发中容易造成内存泄漏的操作](interview/开发中容易造成内存泄漏的操作.md)
 * **Java 集合**
   * [HashMap](interview/HashMap.md)
   * [List 和 Set 区别](interview/List-和-Set-区别.md)
@@ -34,11 +38,17 @@
   * [讲讲线程池的实现原理](interview/讲讲线程池的实现原理.md)
   * [线程池的几种方式与使用场景](interview/线程池的几种方式与使用场景.md)
   * [线程的生命周期](interview/线程的生命周期.md)
+* **Java 锁机制**
+  * [说说线程安全问题](interview/说说线程安全问题.md)
+  * [volatile 实现原理](interview/volatile-实现原理.md)
+  * [synchronize 实现原理](interview/synchronize-实现原理.md)
+  * [synchronize 与 lock 的区别](interview/synchronize-与-lock-的区别.md)
+  * [CAS 乐观锁](interview/CAS-乐观锁.md)
+  * [ABA 问题](interview/ABA-问题.md)
+  * [乐观锁的业务场景及实现方式](interview/乐观锁的业务场景及实现方式.md)
 * **Spring**
   - [如何自定义注解实现功能](interview/如何自定义注解实现功能.md)
   - [Spring MVC 运行流程](interview/Spring-MVC-运行流程.md)
-* **设计模式**
-  * [什么是Iaas, Paas, Saas 及其区别](interview/什么是Iaas-Paas-Saas-及其区别.md)
 * **微服务**
   * [微服务都有哪些框架](interview/微服务都有哪些框架.md)
   * [你怎么理解 RPC 框架](interview/你怎么理解-RPC-框架.md)
@@ -64,7 +74,9 @@
   * [缓存降级](interview/缓存降级.md)
   * [使用缓存的合理性问题](interview/使用缓存的合理性问题.md)
 * **设计模式**
-  * [说说你对设计模式的理解](interview/说说你对设计模式的理解.md)
+  * [什么是Iaas, Paas, Saas 及其区别](interview/什么是Iaas-Paas-Saas-及其区别.md)
+  * [说说你对设计原则的理解](interview/说说你对设计原则的理解.md)
+  * [23 种设计模式的设计理念](interview/23-种设计模式的设计理念.md)
 * **面试题补充**
   * [递归面试题](interview/递归.md)
   * [概述](interview/补充.md)
