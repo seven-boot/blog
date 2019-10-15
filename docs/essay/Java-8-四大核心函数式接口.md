@@ -1,3 +1,33 @@
+![IMG_0744](assets/IMG_0744.PNG)
+
+## 示例：
+
+```java
+public static void main(String[] args) {
+    Predicate<Integer> predicate = x -> x > 185;
+    Student student = new Studeng("9龙", 23, 175);
+    System.out.println("9龙的身高大于185cm吗？" + predicate.test(sutdent.getStature()))；
+        
+    Consumer<String> consumer = System.out::printfln;
+    consumer.accept("我命由我不由天");
+    
+    Function<Student, String> function = Student::getName;
+    String name = function,apply(student);
+    System.out.println(name);
+    
+    Supplier<Integer> supplier = () -> Integer.valueOf(BigDecimal.TEN.toString());
+    System.out.println(supplier.get());
+    
+    UnaryOperator<Boolean> unaryOperator = uglily -> !uglily;
+    Boolean apply = unaryOperator.apply(true);
+    System.out.println(apply);
+    
+    BinaryOperator<Integer> operator = (x, y) -> x * y;
+    Integer integer = operator.apply(2, 3);
+    System.out.println(integer);
+}
+```
+
 ## Function<T, R> 
 
 T：入参类型，R：出参类型
