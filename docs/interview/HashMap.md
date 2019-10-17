@@ -160,3 +160,43 @@ HashMap 中还提供了一个支持传入 initCapacity，loadFactor 两个参数
 ## 总结
 
 HashMap 中 size 表示当前共有多少个 kv 对，capacity 表示当前 HashMap 的容量是多少，默认值是16，每次扩容都是成倍的。loadFactor 是装载因子，当 Map 中元素个数超过 `loadFactory * capacity` 的值时，会触发扩容。`loadFactory * capacity` 可以用 threshold 表示。
+
+## Java 8 取数据过程 get(key)
+
+1. 获得 key 的 hashcode，通过 hash(key) 散列算法得到 hash 值，进而定位到数组的位置。
+
+   ```java
+   public V get(Object key) {
+       Node<K,V> e;
+       return (e = getNode(hash(key), key)) == null ? null : e.value;
+   }
+   ```
+
+2. 在链表上挨个比较 key 对象。调用 equals() 方法，将 key 对象和链表上所有节点的 key 对象进行比较，直到碰到返回 true 的节点对象为止。
+
+3. 返回 equals() 为 true 的节点对象的 value 对象。
+
+   参阅：[hashcode() 和 equals() 方法的关系](interview/hashcode()-和-equals()-方法的关系.md)
+
+```java
+final Node<K,V> getNode(int hash, Object key) {
+    Node<K,V>[] tab; Node<K,V> first, e; int n; K k;
+    if ((tab = table) != null && (n = tab.length) > 0 &&
+        (first = tab[(n - 1) & hash]) != null) {
+        if (first.hash == hash && // always check first node
+            ((k = first.key) == key || (key != null && key.equals(k))))
+            return first;
+        if ((e = first.next) != null) {
+            if (first instanceof TreeNode)
+                return ((TreeNode<K,V>)first).getTreeNode(hash, key);
+            do {
+                if (e.hash == hash &&
+                    ((k = e.key) == key || (key != null && key.equals(k))))
+                    return e;
+            } while ((e = e.next) != null);
+        }
+    }
+    return null;
+}
+```
+

@@ -12,6 +12,7 @@
   * [session 与 cookie 的区别](interview/session-与-cookie-的区别.md)
   * [session 分布式处理](interview/session-分布式处理.md)
   * [equals 与 == 的区别](interview/equals-与-==-的区别.md)
+  * [hashcode() 和 equals() 方法的关系](interview/hashcode()-和-equals()-方法的关系.md)
   * [什么是事务，为什么要用事务？](interview/什么是事务-为什么要用事务.md)
   * [通用的分代垃圾回收机制](interview/通用的分代垃圾回收机制.md)
   * [开发中容易造成内存泄漏的操作](interview/开发中容易造成内存泄漏的操作.md)
