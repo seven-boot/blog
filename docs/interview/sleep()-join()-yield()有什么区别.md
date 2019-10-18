@@ -1,3 +1,5 @@
+![1571366383474](assets/1571366383474.png)
+
 ## sleep()
 
 `sleep()` 方法需要指定等待的时间，它可以让当前正在执行的线程在指定的时间内暂停执行，进入阻塞状态，该方法既可以让其他同优先级或者高优先级的线程得到执行的机会，也可以让低优先级的线程得到执行机会。但是 `sleep()` 方法不会释放“锁标志”，也就是说如果有 `synchronized` 同步块，其他线程仍然不能访问共享数据。
@@ -19,3 +21,38 @@
 ## join()
 
 `join()` 方法会使当前线程等待调用 `join()` 方法的线程结束后才能继续执行
+
+## setDaemon()
+
+JVM 不用等待守护进程执行完毕，也会停止运行。
+
+person：用户线程
+
+god：守护线程
+
+```java
+class God implements Runnable{
+    @Override
+    public void run() {
+        ...死循环
+    }
+}
+
+God god = new God();
+Person person = new Person();
+Thread t = new Thread(god);
+t.setDaemon(true);
+t.start;
+new Thread(person).start;
+```
+
+## 其他常用方法
+
+- isAlive()
+  - 判断线程是否还活着，即线程是否还未终止
+- setName()
+  - 给线程起一个名字
+- getName()
+  - 获取线程的名字
+- currentThread()
+  - 取得当前正在运行的线程对象，也就是获取自己本身
