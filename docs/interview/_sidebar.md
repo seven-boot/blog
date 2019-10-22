@@ -17,6 +17,7 @@
   * [通用的分代垃圾回收机制](interview/通用的分代垃圾回收机制.md)
   * [开发中容易造成内存泄漏的操作](interview/开发中容易造成内存泄漏的操作.md)
 * **Java 集合**
+  * [数组](interview/数组.md)
   * [HashMap](interview/HashMap.md)
   * [TreeMap](interview/TreeMap.md)
   * [List 和 Set 区别](interview/List-和-Set-区别.md)
