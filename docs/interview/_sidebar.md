@@ -47,6 +47,7 @@
   * [volatile 实现原理](interview/volatile-实现原理.md)
   * [synchronize 实现原理](interview/synchronize-实现原理.md)
   * [synchronize 与 lock 的区别](interview/synchronize-与-lock-的区别.md)
+  * [AtomicReference、AtomicStampedReference 和 AtomicMarkableReference 的区别](interview/AtomicReference-AtomicStampedReference-和-AtomicMarkableReference-的区别.md)
   * [CAS 乐观锁](interview/CAS-乐观锁.md)
   * [ABA 问题](interview/ABA-问题.md)
   * [乐观锁的业务场景及实现方式](interview/乐观锁的业务场景及实现方式.md)

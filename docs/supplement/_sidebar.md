@@ -2,6 +2,7 @@
   * [Spring Validation](supplement/)
 * **Java 工具类**
   * [正则表达式](supplement/正则表达式.md)
+  * [字符串格式化](supplement/字符串格式化.md)
   * [HttpServletUtils](supplement/HttpServletUtils.md)
   * [CookieUtils](supplement/CookieUtils.md)
   * [字符串BASE64加密](supplement/字符串BASE64加密.md)
