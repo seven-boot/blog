@@ -14,6 +14,7 @@
   * [Java 8 Stream API](essay/Java-8-Stream-API.md)
   * [Java 8 之方法引用](essay/Java-8-之方法引用.md)
   * [Java 8 四大核心函数式接口](essay/Java-8-四大核心函数式接口.md)
+  * [Java 8 中字符串拼接新姿势：StringJoiner](essay/Java-8-中字符串拼接新姿势-StringJoiner.md)
   * [Random 类](essay/Random-类.md)
 * **概念**
   * [浅复制](essay/浅复制.md)
@@ -47,6 +48,7 @@
 * **踩过的坑**
   * [Boolean 和 boolean](essay/Boolean-和-boolean.md)
   * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
+  * [为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove/add 操作](essay/为什么阿里巴巴禁止在-foreach-循环里进行元素的-remove-add-操作.md)
 * **随笔**
   * [经典算法题：两个大数相乘](essay/经典算法题：两个大数相乘.md)
   * [经典算法题：倒水问题](essay/经典算法题：倒水问题.md)

@@ -43,6 +43,7 @@
   * [线程池的几种方式与使用场景](interview/线程池的几种方式与使用场景.md)
   * [线程的生命周期](interview/线程的生命周期.md)
 * **Java 锁机制**
+  * [线程安全和锁机制详解](interview/线程安全和锁机制详解.md)
   * [说说线程安全问题](interview/说说线程安全问题.md)
   * [volatile 实现原理](interview/volatile-实现原理.md)
   * [synchronize 实现原理](interview/synchronize-实现原理.md)
