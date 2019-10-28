@@ -12,7 +12,7 @@
   * [Linux 编辑器](linux/)
   * [Linux 软件包管理](linux/)
   * [Linux 用户和组管理](linux/)
-  * [Linux 文件权限管理](linux/)
+  * [Linux 文件权限管理](linux/Linux-文件权限管理.md)
   * [Linux 安装 Java](linux/)
   * [Linux 安装 Tomcat](linux/)
   * [Linux 安装 MySQL](linux/)
