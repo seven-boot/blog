@@ -48,6 +48,7 @@
   * [MongoDB Compass 使用](essay/MongoDB-Compass-使用.md)
   * [$unwind 用法](essay/mongo-$unwind-用法.md)
   * [Aggregation 写法](essay/mongo-Aggregation-写法.md)
+  * [MapReduce 写法](essay/mongo-MapReduce-写法.md)
 * **踩过的坑**
   * [Boolean 和 boolean](essay/Boolean-和-boolean.md)
   * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
