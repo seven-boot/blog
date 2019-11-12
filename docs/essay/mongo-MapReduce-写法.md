@@ -91,3 +91,110 @@ db.consume.mapReduce(
 { "_id" : "Small Books", "value" : { "books" : 3 } } 
 ```
 
+```java
+db.order.mapReduce{
+    function() {emit(this.logname, 1);},
+    function(key, values) {
+        var ret = {"name":key,"count":Array.sum(values)};
+        return ret;
+    }
+    {
+        query:{uploadTime:{$gt:1231234124}},
+        out:{inline:1}	// 在内存中存储记录（数据量少的情况下）
+    }
+}
+结果
+[
+    {
+        "_id":"log-123123",
+        "value":{
+            "name":"log-123123",
+            "count":5.0
+        }
+    },
+    {
+        "_id":"log-123154",
+        "value":{
+            "name":"log-123154",
+            "count":9.0
+        }
+    }
+]
+```
+
+
+
+```java
+public static void main(String[] args) {  
+  
+  Mongo mongo;  
+    
+  try {  
+   mongo = new Mongo("localhost", 27017);  
+   DB db = mongo.getDB("library");  
+  
+   DBCollection books = db.getCollection("books");  
+  
+   BasicDBObject book = new BasicDBObject();  
+   book.put("name", "Understanding JAVA");  
+   book.put("pages", 100);  
+   books.insert(book);  
+     
+   book = new BasicDBObject();    
+   book.put("name", "Understanding JSON");  
+   book.put("pages", 200);  
+   books.insert(book);  
+     
+   book = new BasicDBObject();  
+   book.put("name", "Understanding XML");  
+   book.put("pages", 300);  
+   books.insert(book);  
+     
+   book = new BasicDBObject();  
+   book.put("name", "Understanding Web Services");  
+   book.put("pages", 400);  
+   books.insert(book);  
+   
+   book = new BasicDBObject();  
+   book.put("name", "Understanding Axis2");  
+   book.put("pages", 150);  
+   books.insert(book);  
+     
+   String map = "function() { "+   
+             "var category; " +    
+             "if ( this.pages >= 250 ) "+    
+             "category = 'Big Books'; " +  
+             "else " +  
+             "category = 'Small Books'; "+    
+             "emit(category, {name: this.name});}";  
+     
+   String reduce = "function(key, values) { " +  
+                            "var sum = 0; " +  
+                            "values.forEach(function(doc) { " +  
+                            "sum += 1; "+  
+                            "}); " +  
+                            "return {books: sum};} ";  
+     
+   MapReduceCommand cmd = new MapReduceCommand(books, map, reduce,  
+     null, MapReduceCommand.OutputType.INLINE, null);  
+  
+   MapReduceOutput out = books.mapReduce(cmd);  
+  
+   for (DBObject o : out.results()) {  
+    System.out.println(o.toString());  
+   }  
+  } catch (Exception e) {  
+   // TODO Auto-generated catch block  
+   e.printStackTrace();  
+  }  
+ }  
+}  
+```
+
+参考：
+
+[1]: https://www.cnblogs.com/shaosks/p/5684906.html
+[2]: https://blog.csdn.net/java_ee/article/details/24845017	"MongoDB MapReduce Java"
+[3]: https://blog.csdn.net/xusheng__zhang/article/details/78472167	"Map Reduce 详解"
+[4]: https://blog.csdn.net/chunyuan314/article/details/63686341	"涉及时间ISODate"
+

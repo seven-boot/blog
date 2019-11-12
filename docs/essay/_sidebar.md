@@ -47,6 +47,7 @@
 * **MongoDB**
   * [MongoDB Compass 使用](essay/MongoDB-Compass-使用.md)
   * [$unwind 用法](essay/mongo-$unwind-用法.md)
+  * [BasicDBObject 条件查询写法](essay/mongo-BasicDBObject-条件查询写法.md)
   * [Aggregation 写法](essay/mongo-Aggregation-写法.md)
   * [MapReduce 写法](essay/mongo-MapReduce-写法.md)
 * **踩过的坑**
