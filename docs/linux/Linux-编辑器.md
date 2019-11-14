@@ -22,6 +22,14 @@
 
 `:set nonumber`	在编辑文件不显示行号
 
+## tee
+
+```cmd
+tee /usr/local/docker/daemon.json <<-'EOF'
+hello tee
+EOF
+```
+
 ## nano
 
 nano 是一个字符终端的文本编辑器，有点像 DOS 下的 editor 程序。它比 vi/vim 要简单得多，比较适合 Linux 初学者使用。某些 Linux 发行版的默认编辑器就是 nano。

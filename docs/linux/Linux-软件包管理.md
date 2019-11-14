@@ -53,6 +53,18 @@ apt-get update
 apt-get install packagename
 ```
 
+> apt-get 下载后，软件所在路径：/var/cache/apt/archives
+>
+> 文档一般在： /usr/share
+>
+> 可执行文件：/usr/bin
+>
+> 配置文件：/etc
+>
+> lib文件：/usr/lib
+>
+> 工作主空间：/var/lib
+
 ### 删除软件包
 
 ```text
