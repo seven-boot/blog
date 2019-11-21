@@ -191,6 +191,30 @@ public static void main(String[] args) {
 }  
 ```
 
+```java
+
+String mapper = "function() {" +
+        "emit(this.categoryId,1);" +
+        "}";
+String reducer = "function(key,values){" +
+        "return Array.sum(values);" +
+        "}";
+collection.mapReduce(mapper, reducer)
+        .databaseName("test")   //结果保存在”test“数据库中，默认为当前数据库
+        .collectionName("result") //指定结果保存的collection，默认为inline模式，不保存，直接通过cursor输出
+        .action(MapReduceAction.REPLACE) //结果保存方式，如果”result“表存在，则替换。
+        .nonAtomic(false) //是否为”非原子性“
+        .sharded(false) //结果collection是否为sharded
+        .maxTime(180,TimeUnit.SECONDS) //mapreduce执行的最大时间
+        .iterator() //触发执行，这句话千万别忘了，否则不会执行
+        .close(); //我们不需要cursor，则直接关闭
+//此后即可通过result collection获取数据统计的结果
+
+https://blog.csdn.net/iteye_19607/article/details/82644559
+```
+
+
+
 参考：
 
 [1]: https://www.cnblogs.com/shaosks/p/5684906.html
