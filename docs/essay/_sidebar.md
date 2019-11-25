@@ -20,6 +20,7 @@
   * [Java 中枚举的线程安全性及序列化问题](essay/Java-中枚举的线程安全性及序列化问题.md)
   * [Java 的 ClassLoader 机制](essay/Java-的-ClassLoader-机制.md)
 * **概念**
+  * [Java 对象 POJO 和 JavaBean 的区别](essay/Java-对象-POJO-和-JavaBean-的区别.md)
   * [浅复制](essay/浅复制.md)
   * [深复制](essay/深复制.md)
   * [分布式和微服务的概念区分](essay/分布式和微服务的概念区分.md)
