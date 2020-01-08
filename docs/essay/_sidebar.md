@@ -39,6 +39,7 @@
 * **JSON**
   * [FastJson](essay/FastJson-应用.md)
 * **Redis**
+  * [Redis 保存数字 value 报错](essay/Redis-保存数字-value-报错.md)
   * [String 应用场景](essay/Redis-String-应用场景.md)
   * [Hash 应用场景](essay/Redis-Hash-应用场景.md)
   * [List 应用场景](essay/Redis-List-应用场景.md)
