@@ -67,4 +67,6 @@ GenericToStringSerializer 源码：
 
 ![image-20200108181013339](assets/image-20200108181013339.png)
 
-两种序列化器都是直接获取的字节数组，因此存到 redis 中，可以使用 increment 方法。
+两种序列化器都是直接获取的字节数组，因此存到 redis 中，可以使用 incr 方法。
+
+> incr 命令将 key 中存储的数字值加 1，如果 key 不存在，那么 key 的值会先被初始化为 0，然后再执行 incr 操作，且将 key 的有效时间设置为长期有效。
