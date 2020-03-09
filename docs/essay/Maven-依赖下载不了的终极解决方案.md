@@ -4,6 +4,8 @@
 mvn install:install-file -Dfile=d:\extenrnalResp\dubbo-2.7.5.jar -DgroupId=org.apache.dubbo -DartifactId=dubbo -Dversion=2.7.5 -Dpackaging=jar
 ```
 
+#### 这种方式只适用于缺少一个jar，如果这个jar还有其他的关联jar需要下载，这种方式并不会下载关联的jar包
+
 - 首先下载需要的 jar 包
 
   [阿里云仓库地址]( https://maven.aliyun.com/mvn/search )
