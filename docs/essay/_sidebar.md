@@ -60,6 +60,7 @@
   * [int 与 Integer 比较相等](essay/int-与-Integer-比较相等.md)
   * [为什么阿里巴巴禁止在 foreach 循环里进行元素的 remove/add 操作](essay/为什么阿里巴巴禁止在-foreach-循环里进行元素的-remove-add-操作.md)
   * [Mongo aggregate 聚合问题](essay/Mongo-aggregate-聚合问题.md)
+  * [Maven 依赖下载不了的终极解决方案](essay/Maven-依赖下载不了的终极解决方案.md)
 * **随笔**
   * [经典算法题：两个大数相乘](essay/经典算法题：两个大数相乘.md)
   * [经典算法题：倒水问题](essay/经典算法题：倒水问题.md)
