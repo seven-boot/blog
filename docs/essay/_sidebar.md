@@ -35,6 +35,7 @@
   * [Mysql 有则更新，无则插入](essay/Mysql-有则更新-无则插入.md)
   * [Mysql 排序后获取排列序号](essay/Mysql-排序后获取排列序号.md)
   * [数据库如何存储时间](essay/数据库如何存储时间.md)
+  * [Mysql 中的 JSON 类型](essay/Mysql-中的-JSON-类型.md)
 * **Mybatis**
   * [Mybatis #{} 和 ${} 的区别](essay/Mybatis中两种赋值方式的区别.md)
 * **JSON**

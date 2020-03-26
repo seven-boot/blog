@@ -41,6 +41,7 @@
   * [ThreadLocal 原理分析](interview/ThreadLocal-原理分析.md)
   * [讲讲线程池的实现原理](interview/讲讲线程池的实现原理.md)
   * [线程池的几种方式与使用场景](interview/线程池的几种方式与使用场景.md)
+  * [为什么不建议用 Executors?](interview/为什么不建议用-Executors.md)
   * [线程的生命周期](interview/线程的生命周期.md)
 * **Java 锁机制**
   * [线程安全和锁机制详解](interview/线程安全和锁机制详解.md)
