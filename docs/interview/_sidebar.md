@@ -53,6 +53,9 @@
   * [CAS 乐观锁](interview/CAS-乐观锁.md)
   * [ABA 问题](interview/ABA-问题.md)
   * [乐观锁的业务场景及实现方式](interview/乐观锁的业务场景及实现方式.md)
+* **JVM**
+  * [JVM 类加载机制](interview/JVM-类加载机制.md)
+  * [JVM 运行时数据区](interview/JVM-运行时数据区.md)
 * **Spring**
   - [如何自定义注解实现功能](interview/如何自定义注解实现功能.md)
   - [Spring MVC 运行流程](interview/Spring-MVC-运行流程.md)
