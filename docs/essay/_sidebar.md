@@ -38,6 +38,7 @@
   * [Mysql 中的 JSON 类型](essay/Mysql-中的-JSON-类型.md)
 * **Mybatis**
   * [Mybatis #{} 和 ${} 的区别](essay/Mybatis中两种赋值方式的区别.md)
+  * [Mybatis 缓存介绍](essay/Mybatis-缓存介绍.md)
 * **JSON**
   * [FastJson](essay/FastJson-应用.md)
 * **Redis**
