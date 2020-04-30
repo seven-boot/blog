@@ -58,6 +58,7 @@
   * [JVM 运行时数据区](interview/JVM-运行时数据区.md)
 * **Spring**
   - [如何自定义注解实现功能](interview/如何自定义注解实现功能.md)
+  - [Spring 为何推荐使用构造器注入](interview/Spring-为何推荐使用构造器注入.md)
   - [Spring MVC 运行流程](interview/Spring-MVC-运行流程.md)
 * **微服务**
   * [微服务都有哪些框架](interview/微服务都有哪些框架.md)
