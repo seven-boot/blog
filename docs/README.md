@@ -155,3 +155,52 @@ services:
       - 8080:8080
 ```
 
+## ELK
+
+```yaml
+version: "3.7"
+services:
+  elasticsearch:
+    image: "docker.elastic.co/elasticsearch/elasticsearch:7.8.0"
+    container_name: elasticsearch
+    restart: always
+    volumes:
+      - "elasticsearch:/usr/share/elasticsearch"
+    environment:
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "discovery.type=single-node"
+    ports:
+      - "9200:9200"
+
+  kibana:
+    image: "docker.elastic.co/kibana/kibana:7.8.0"
+    container_name: kibana
+    restart: "always"
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+
+
+volumes:
+  elasticsearch:
+    external: true
+```
+
+## Nacos
+
+```yaml
+version: "3.9"
+services:
+  nacos:
+    image: nacos/nacos-server:1.4.2
+    container_name: nacos-1.4.2
+    restart: always
+    env_file:
+      - ./nacos-standlone-mysql.env
+    volumes:
+      - ./logs/:/home/nacos/logs
+    ports:
+      - "8848:8848"
+```
+
