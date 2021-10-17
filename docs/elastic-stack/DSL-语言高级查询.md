@@ -2,9 +2,9 @@
 
 ES 提供了强大的查询语言（DSL），它可以允许我们进行更加强大、复杂的查询，Elasticsearch DSL 中有 Query 与 Filter 两种
 
-### Query 方式查询
+## Query 方式查询
 
-1、Query 方式查询，会在 ES 中索引的数据都存储一个 `_score` 分值，分值越高就代表越匹配。
+Query 方式查询，会在 ES 中索引的数据都存储一个 `_score` 分值，分值越高就代表越匹配。
 
 - 精确查询：term 查询不会对字段进行分词查询，会采用精确匹配，相当于 MySQL 中的 =
 
@@ -110,5 +110,24 @@ POST /es_db/_search
 }
 ```
 
-### Filter 过滤器方式查询
+## Filter 过滤器方式查询
+
+Fileter 方式查询，不会计算相关性分值，也不会对结果进行排序，因此效率会高一些，查询的结果可以被缓存
+
+> Filter Context 对数据进行过滤
+
+```ba
+POST /es_db/_search
+{
+  "query": {
+    "bool": {
+      "filter": {
+        "term": {
+          "age": "35"
+        }
+      }
+    }
+  }
+}
+```
 
