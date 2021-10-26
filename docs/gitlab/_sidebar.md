@@ -10,3 +10,9 @@
   * [GitLab 的账户管理](gitlab/GitLab-的账户管理.md)
   * [GitLab 创建第一个项目](gitlab/GitLab-创建第一个项目.md)
   * [GitLab 使用 SSH 免密登录](gitlab/GitLab-使用-SSH-免密登录.md)
+
+- **Gogs**
+  - [安装 Gogs](gitlab/安装-Gogs.md)
+
+- **Drone**
+  - [安装 Drone](gitlab/安装-Drone.md)

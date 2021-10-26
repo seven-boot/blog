@@ -204,3 +204,99 @@ services:
       - "8848:8848"
 ```
 
+## WordPress
+
+```yaml
+version: "3.1"
+services:
+  wordpress:
+    image: "wordpress"
+    container_name: "wordpress"
+    restart: "always"
+    volumes:
+      - "./data:/var/www/html"
+    environment:
+      - WORDPRESS_DB_HOST=db
+      - WORDPRESS_DB_USER=root
+      - WORDPRESS_DB_PASSWORD=(mysql)+mysql
+      - WORDPRESS_DB_NAME=wordpress
+    ports:
+      - 80:80
+    networks:
+      - service
+
+networks:
+  service:
+    external:
+      name: service
+```
+
+## ICG（Influxdb+cadvisor+grafana）
+
+```yaml
+version: '3.7'
+services:
+  influxsrv:
+    image: tutum/influxdb
+    container_name: influxsrv
+    restart: always
+    environment:
+      ADMIN_USER: root
+      INFLUXDB_INIT_PWD: root
+      PRE_CREATE_DB: cadvisor
+    ports:
+      - 8083:8083
+      - 8086:8086
+    expose:
+      - 8090
+      - 8099
+    volumes:
+      - ./influxdb:/data
+    networks:
+      - icg
+
+  cadvisor:
+    image: google/cadvisor
+    container_name: cadvisor
+    restart: always
+    command:
+      --storage_driver=influxdb
+      --storage_driver_db=cadvisor
+      --storage_driver_host=influxsrv:8086
+    ports:
+      - 8082:8080
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    networks:
+      - icg
+    depends_on:
+      - influxsrv
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    restart: always
+    ports:
+      - 8084:3000
+    environment:
+      HTTP_USER: admin
+      HTTP_PASS: admin
+      INFLUXDB_HOST: influxsrv
+      INFLUXDB_PORT: 8086
+      INFLUXDB_NAME: cadvisor
+      INFLUXDB_USER: root
+      INFLUXDB_PASS: root
+    networks:
+      - icg
+    depends_on:
+      - cadvisor
+
+networks:
+  icg:
+    external:
+      name: docker_icg
+```
+
