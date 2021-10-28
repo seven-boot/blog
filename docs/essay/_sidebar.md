@@ -40,6 +40,7 @@
 * **Mybatis**
   * [Mybatis #{} 和 ${} 的区别](essay/Mybatis中两种赋值方式的区别.md)
   * [Mybatis 缓存介绍](essay/Mybatis-缓存介绍.md)
+  * [tk.mybatis 问题](essay/tkmybatis-问题.md)
 * **JSON**
   * [FastJson](essay/FastJson-应用.md)
 * **Redis**
