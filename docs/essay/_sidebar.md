@@ -66,6 +66,7 @@
   * [Mongo aggregate 聚合问题](essay/Mongo-aggregate-聚合问题.md)
   * [Maven 依赖下载不了的终极解决方案](essay/Maven-依赖下载不了的终极解决方案.md)
   * [maven-metadata.xml 文件的作用](essay/maven-metadata.xml-文件的作用.md)
+  * [SpringBoot 项目中排除自动配置类失败问题](essay/SpringBoot-项目中排除自动配置类失败问题.md)
 * **随笔**
   * [经典算法题：两个大数相乘](essay/经典算法题：两个大数相乘.md)
   * [经典算法题：倒水问题](essay/经典算法题：倒水问题.md)
