@@ -57,6 +57,7 @@
   * [JVM 类加载机制](interview/JVM-类加载机制.md)
   * [JVM 运行时数据区](interview/JVM-运行时数据区.md)
 * **Spring**
+  - [Spring Bean 的生命周期](interview/Spring-Bean-的生命周期.md)
   - [如何自定义注解实现功能](interview/如何自定义注解实现功能.md)
   - [Spring 为何推荐使用构造器注入](interview/Spring-为何推荐使用构造器注入.md)
   - [Spring MVC 运行流程](interview/Spring-MVC-运行流程.md)
