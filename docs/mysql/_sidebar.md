@@ -1,6 +1,8 @@
 * **Mysql**
   * [Mysql 简介](mysql/)
-  * [常用的 MongoDB 命令](mongo/常用的-MongoDB-命令.md)
+  * [Mysql 安装](mysql/配置文件.md)
+  * [Mysql 配置文件](mysql/配置文件.md)
+  * [Mysql 主从复制](mysql/主从复制.md)
 * 索引优化分析
   * [常用的 MongoDB 命令](mongo/常用的-MongoDB-命令.md)
 
