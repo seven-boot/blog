@@ -28,3 +28,42 @@
 由 StorageClass 根据用户声明创建 pv
 
 ![image.png](assets/1600661166411-64bfb5e4-c8cf-4932-979b-bb962f94ec8b.png)
+
+## 创建配置
+
+key：`my.cnf`
+
+value：
+
+```cnf
+[client]
+default-character-set=utf8mb4
+ 
+[mysql]
+default-character-set=utf8mb4
+ 
+[mysqld]
+init_connect='SET collation_connection = utf8mb4_unicode_ci'
+init_connect='SET NAMES utf8mb4'
+character-set-server=utf8mb4
+collation-server=utf8mb4_unicode_ci
+skip-character-set-client-handshake
+skip-name-resolve
+```
+
+## 配置镜像
+
+选择镜像
+
+配置资源限制
+
+配置端口
+
+配置环境变量
+
+## 配置存储卷、挂载配置文件
+
+![image-20211108213651404](assets/image-20211108213651404.png)
+
+![image-20211108213706057](assets/image-20211108213706057.png)
+

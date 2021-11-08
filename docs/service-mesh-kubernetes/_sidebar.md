@@ -18,5 +18,6 @@
 - **KubeSphere**
   - [一站式平台搭建](service-mesh-kubernetes/kubesphere-搭建.md)
   - [Mysql 部署](service-mesh-kubernetes/mysql-部署.md)
+  - [Redis 部署](service-mesh-kubernetes/redis-部署.md)
   - [Sentinel 部署](service-mesh-kubernetes/sentinel-部署.md)
 
