@@ -8,5 +8,6 @@
   * [GitFlow 工作流](git/GitFlow-工作流.md)
   * [Forking 工作流](git/Forking-工作流.md)
   * [Pull Requests](git/Pull-Requests.md)
+  * [git stash 暂存](git/git-stash-暂存.md)
 
 
