@@ -20,4 +20,5 @@
   - [volatile 关键字与内存可见性](sourceRead/volatile-关键字与内存可见性.md)
 - **Spring 注解驱动**
   - [volatile 关键字与内存可见性](sourceRead/volatile-关键字与内存可见性.md)
+  - [使用 @ConfigurationProperties](sourceRead/注解-ConfigurationProperties.md)
 
