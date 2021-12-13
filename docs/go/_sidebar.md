@@ -7,6 +7,7 @@
   * [Golang 流程控制](go/Golang-流程控制.md)
   * [Golang 循环控制](go/Golang-循环控制.md)
   * [Golang goto和return](go/Golang-goto和return.md)
+  * [Golang 函数](go/Golang-函数.md)
 
 - **Golang 高级**
   - [Golang 的错误处理](go/Golang-的错误处理.md)

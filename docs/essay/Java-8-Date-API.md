@@ -123,3 +123,14 @@ Clock           时钟，可用于获取当前时间戳
 java.time.format.DateTimeFormatter      时间格式化类
 ```
 
+## LocalDate获取月初月末
+
+```java
+//获取月初
+LocalDate monthOfFirstDate=LocalDate.parse(count_date,
+                DateTimeFormatter.ofPattern("yyyy-MM-dd")).with(TemporalAdjusters.firstDayOfMonth());
+//获取月末
+LocalDate monthOfLastDate=LocalDate.parse(count_date,
+                DateTimeFormatter.ofPattern("yyyy-MM-dd")).with(TemporalAdjusters.lastDayOfMonth());
+```
+
