@@ -9,5 +9,6 @@
   * [Forking 工作流](git/Forking-工作流.md)
   * [Pull Requests](git/Pull-Requests.md)
   * [git stash 暂存](git/git-stash-暂存.md)
+  * [git 修改用户名和邮箱](git/git-修改用户名和邮箱.md)
 
 

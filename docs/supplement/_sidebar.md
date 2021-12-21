@@ -27,3 +27,4 @@
   * [Git 过滤文件](supplement/Git-过滤文件.md)
   * [Kaptcha](supplement/使用-Google-Kaptcha-生成验证码.md)
   * [解决 Maven 无法自动下载依赖的问题](supplement/解决-Maven-无法自动下载依赖的问题.md)
+  * [截取视频某一帧作为视频封面进行保存](supplement/截取视频某一帧作为视频封面进行保存.md)

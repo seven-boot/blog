@@ -1,4 +1,4 @@
-* **Spring Cloud Netflix**
+* **Spring Boot**
   * [Spring 简史](spring-boot/)
   * [Spring Boot 简介](spring-boot/Spring-Boot-简介.md)
   * [Spring Boot 优缺点](spring-boot/Spring-Boot-优缺点.md)
