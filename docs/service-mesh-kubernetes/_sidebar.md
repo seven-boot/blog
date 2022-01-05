@@ -1,9 +1,10 @@
-* **Kubernetes 入门**
+* **Kubernetes 基础概念**
   * [什么是 Kubernetes](service-mesh-kubernetes/)
   * [Java 7](sourceRead/Java-7.md)
   * [Java 8](sourceRead/Java-8.md)
   * [Java 11](sourceRead/Java-11.md)
-* **Kubernetes 实践**
+* **Kubernetes 集群搭建**
+* **Kubernetes 核心实战**
   * [Helm 简介](service-mesh-kubernetes/Helm-简介.md)
   * [Helm 安装 Redis](service-mesh-kubernetes/Helm-安装-Redis.md)
   * [运算符](sourceRead/变量的声明与使用.md)
@@ -15,9 +16,11 @@
   * [List 概述](sourceRead/List-概述.md)
   * [Queue](sourceRead/Queue.md)
 
-- **KubeSphere**
+- **KubeSphere 平台安装**
   - [Kubesphere 简介](service-mesh-kubernetes/Kubesphere-简介.md)
   - [一站式平台搭建](service-mesh-kubernetes/kubesphere-搭建.md)
+- **KubeSphere 应用部署**
+  - [Kubesphere 应用部署](service-mesh-kubernetes/Kubesphere-应用部署.md)
   - [Kubesphere Mysql 部署](service-mesh-kubernetes/Kubesphere-mysql-部署.md)
   - [Kubesphere Redis 部署](service-mesh-kubernetes/Kubesphere-redis-部署.md)
   - [Kubesphere Sentinel 部署](service-mesh-kubernetes/Kubesphere-sentinel-部署.md)
