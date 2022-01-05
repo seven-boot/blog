@@ -19,6 +19,8 @@
   * [Linux 安装 MySQL](linux/)
   * [部署应用到生产环境](linux/)
   * [附：Linux LVM 磁盘扩容](linux/)
+* **Shell 脚本**
+  * [运行shell脚本时报错&#91;&#91; : not found解决方法](linux/运行-shell-脚本时报错-not-found-解决方法.md)
 
-- 阿里云使用记录
+- **阿里云使用记录**
   - [阿里云控制台登录服务器无法登录](linux/阿里云控制台登录服务器无法登录.md)
