@@ -31,7 +31,8 @@
   - [KubeSphere 应用部署](service-mesh-kubernetes/Kubesphere-应用部署.md)
   - [KubeSphere Mysql 部署](service-mesh-kubernetes/Kubesphere-mysql-部署.md)
   - [KubeSphere Redis 部署](service-mesh-kubernetes/Kubesphere-redis-部署.md)
+  - [KubeSphere ElasticSearch部署](service-mesh-kubernetes/Kubesphere-ElasticSearch-部署.md)
   - [KubeSphere Sentinel 部署](service-mesh-kubernetes/Kubesphere-sentinel-部署.md)
-
+  
 - **Service Mesh**
   - [KubeSphere 启用服务治理](service-mesh-kubernetes/KubeSphere-启用服务治理.md)

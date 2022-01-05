@@ -1,3 +1,7 @@
+## redis 部署分析
+
+![image-20220105232353713](assets/image-20220105232353713.png)
+
 ## 概述
 
 redis 启动命令为：`redis-server /etc/redis/redis.conf`
@@ -37,3 +41,4 @@ docker run -d -p 6379:6379 --restart=always \
 ## 挂载配置
 
 ![image-20211108233811432](assets/image-20211108233811432.png)
+

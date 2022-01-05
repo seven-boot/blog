@@ -4,6 +4,10 @@
 - 有状态服务必须使用 `pvc` 持久化数据
 - 服务集群内访问使用 `DNS` 提供的稳定域名（Pod名+命名空间）
 
+## mysql 部署分析
+
+![image-20220105220231264](assets/image-20220105220231264.png)
+
 ## 创建密钥
 
 命名：`mysql-secret`
@@ -67,3 +71,16 @@ skip-name-resolve
 
 ![image-20211108213706057](assets/image-20211108213706057.png)
 
+## 配置service网络
+
+上面部署完成mysql StatefulSet之后，会自动创建一个 mysql-xnxh 的 service 供集群内部应用访问，直接通过 dns：mysql-9pv1.k8s-book 即可访问，这种方式只能在集群内部通过 dns 来互相访问
+
+### 配置外部访问
+
+![image-20220105222756516](assets/image-20220105222756516.png)
+
+配置外网访问选择 NodePort，即可通过集群任意一台节点的 ip + port 来访问
+
+![image-20220105222843113](assets/image-20220105222843113.png)
+
+![image-20220105222932709](assets/image-20220105222932709.png)
