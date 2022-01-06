@@ -266,4 +266,6 @@ db.password=youdontknow
 
 ## nacos 存活探针
 
-nacos server 需要依赖 mysql，有可能在 k8s 集群重启的时候，MySQL 还没有准备好，nacos 已经启动了，nacos 没有准备好的情况下，这时依赖 nacos 的 web 应用去连接 nacos，就会出现连接不上，导致大面积应用挂掉
+nacos server 需要依赖 mysql，有可能在 k8s 集群重启的时候，MySQL 还没有准备好，nacos 已经启动了；nacos 没有准备好的情况下，这时依赖 nacos 的 web 应用去连接 nacos，就会出现连接不上，导致大面积应用挂掉，需要给 nacos StatefulSet 配置上健康检查器 - 容器存活检查
+
+![image-20220106153017928](assets/image-20220106153017928.png)
