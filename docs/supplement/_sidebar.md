@@ -21,6 +21,9 @@
   * [什么是跨域问题](supplement/什么是跨域问题.md)
   * [Spring Boot 配置 CORS](supplement/Spring-Boot-配置-CORS.md)
 * **Fiddler**
+* **应用部署**
+  * [Supervisor](supplement/supervisor.md)
+  * [Supervisord Monitor](supplement/supervisord-monitor.md)
 * **其他**
   * [Calenda 获取当前年月日](supplement/Calenda-获取当前年月日.md)
   * [手机号码隐藏中间四位](supplement/手机号码隐藏中间四位.md)

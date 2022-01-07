@@ -54,3 +54,11 @@ Spring 4.0 开始支持 Bean Validation 功能。
 - `@ScriptAssert(lang= ,script=, alias=)`
 - `@URL(protocol=,host=, port=,regexp=, flags=)`
 
+## JSR 标准和 Spring 校验框架
+
+`Java` 的 `JSR-303` 标准的数据校验的核心接口是 ` javax.validation.Validator `， 该接口根据目标对象中标注的校验注解进行数据校验，并得到校验结果。 
+
+ `Spring`也有自己的校验框架，同时支持`JSR-303`标准的校验框架。`Spring`的`DataBinder`在进行数据绑定时，同时调用校验框架完成数据校验工作。 
+
+ `Spring`的校验框架包是`org.springframework.validation`，其中`LocalValidatorFactoryBean`同时实现了`Spring`的`Validator`和`JSR-303`的`Validator`接口，但是`Spring`本身没有提供`JSR-303`的实现，因此必须将实现了`JSR-303`的`jar`放在类路径下。 
+

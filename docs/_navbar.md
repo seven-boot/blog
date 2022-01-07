@@ -14,6 +14,7 @@
   * [Vuex](https://vuex.vuejs.org/zh/api/#vuex-store)
   * [jQuery](https://www.jquery123.com/)
   * [Bootstrap](http://www.runoob.com/bootstrap/bootstrap-tutorial.html)
+  * [看云 运维知识记录](https://www.kancloud.cn/vim26/v1)
 * 在线工具
   * [PDF 转化器](https://smallpdf.com/cn/pdf-to-word)
   * [JSON 编辑器](https://www.bejson.com/jsoneditoronline)
