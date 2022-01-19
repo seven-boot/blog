@@ -10,6 +10,7 @@
   * [MapperUtils](supplement/MapperUtils.md)
   * [取指定区间内的随机数](supplement/取指定区间内的随机数.md)
   * [log4j 示例](supplement/log4j-示例.md)
+  * [读取 json 文件](supplement/读取-json-文件.md)
 * **JavaScript 工具类**
   * [DateTime](supplement/DateTime.md)
 * **JavaScript 插件**

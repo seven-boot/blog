@@ -62,3 +62,6 @@ Spring 4.0 开始支持 Bean Validation 功能。
 
  `Spring`的校验框架包是`org.springframework.validation`，其中`LocalValidatorFactoryBean`同时实现了`Spring`的`Validator`和`JSR-303`的`Validator`接口，但是`Spring`本身没有提供`JSR-303`的实现，因此必须将实现了`JSR-303`的`jar`放在类路径下。 
 
+https://blog.csdn.net/qq_33326449/article/details/80076750
+
+https://blog.csdn.net/qq_30038111/article/details/104524123

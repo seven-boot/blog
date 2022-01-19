@@ -8,3 +8,27 @@ Spring 根据代码的功能特点，将降低耦合度的方式分为了两类�
 
 Spring 是于 2003 年兴起的一个轻量级的 Java 开发框架，它是为了解决企业应用开发的复杂性而创建的。Spring 的核心是控制反转（IoC）和面向切面编程（AOP）。简单来说，Spring 是一个分层的 Java SE/EE full-stack(一站式)轻量级开源框架。
 
+
+
+
+
+字符串截取
+
+```
+SELECT top 5
+right(left(Area,len(Area) - (charindex(';', reverse(Area)))), charindex(';', Area)-1)
+from Sale_SaleBlue
+where Cancel = 0 and Area is not null and AddDate = CONVERT(varchar(10), getdate(), 112)
+GROUP BY right(left(Area,len(Area) - (charindex(';', reverse(Area)))), charindex(';', Area)-1)
+ORDER BY count(*) desc
+
+SELECT charindex(';', '安徽;合肥;瑶海')
+SELECT len('安徽;合肥;瑶海') - (charindex(';', reverse('安徽;合肥;瑶海')))
+
+SELECT SUBSTRING('安徽;合肥;瑶海', charindex(';', '安徽;合肥;瑶海') + 1, len('安徽;合肥;瑶海') - (charindex(';', reverse('安徽;合肥;瑶海'))-1))
+
+SELECT SUBSTRING('安徽;合肥;瑶海',4, 2)
+
+SELECT right(left('安徽;合肥;瑶海',len('安徽;合肥;瑶海') - (charindex(';', reverse('安徽;合肥;瑶海')))), charindex(';', '安徽;合肥;瑶海')-1)
+```
+

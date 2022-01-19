@@ -68,6 +68,7 @@
   * [maven-metadata.xml 文件的作用](essay/maven-metadata.xml-文件的作用.md)
   * [SpringBoot 项目中排除自动配置类失败问题](essay/SpringBoot-项目中排除自动配置类失败问题.md)
   * [Windows 挂载 Linux NFS 目录](essay/Windows-挂载-Linux-NFS-目录.md)
+  * [前端获取不到后端添加的请求头](essay/前端获取不到后端添加的请求头.md)
 * **随笔**
   * [经典算法题：两个大数相乘](essay/经典算法题：两个大数相乘.md)
   * [经典算法题：倒水问题](essay/经典算法题：倒水问题.md)

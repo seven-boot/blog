@@ -262,3 +262,70 @@ public class UserHelper {
 
 #### 高级实现方式
 
+```java
+@Component
+public class AutowireStaticSmartInitializingSingleton implements SmartInitializingSingleton {
+
+    @Autowired
+    private AutowireCapableBeanFactory beanFactory;
+
+    /**
+     * 当所有的单例Bena初始化完成后，对static静态成员进行赋值
+     */
+    @Override
+    public void afterSingletonsInstantiated() {
+        // 因为是给static静态属性赋值，因此这里new一个实例做注入是可行的
+        beanFactory.autowireBean(new UserHelper());
+    }
+}
+```
+
+UserHelper类不再需要标注@Component注解，也就是说它不再需要被Spirng容器管理（static工具类确实不需要交给容器管理嘛，毕竟我们不需要用到它的实例），这从某种程度上也是节约开销的表现。
+
+```
+public class UserHelper {
+
+    @Autowired
+    static UCClient ucClient;
+    ...
+}
+```
+
+运行程序，结果输出：
+
+```
+08:50:15.765 [main] INFO org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - Autowired annotation is not supported on static fields: static cn.yourbatman.temp.component.UCClient cn.yourbatman.temp.component.UserHelper.ucClient
+Exception in thread "main" java.lang.NullPointerException
+	at cn.yourbatman.temp.component.UserHelper.getAndFilterTest(UserHelper.java:26)
+	at cn.yourbatman.temp.component.RoomService.create(RoomService.java:26)
+	at cn.yourbatman.temp.DemoTest.main(DemoTest.java:19)
+```
+
+报错。当然喽，这是我故意的，虽然抛异常了，但是看到我们的进步了没：info日志只打印一句了（自行想想啥原因哈）。不卖关子了，正确的姿势还得这么写：
+
+```
+public class UserHelper {
+
+    static UCClient ucClient;
+    @Autowired
+    public void setUcClient(UCClient ucClient) {
+        UserHelper.ucClient = ucClient;
+    }
+}
+```
+
+或者
+
+```
+@Component
+public class AutowireStaticSmartInitializingSingleton implements SmartInitializingSingleton {
+
+    @Autowired
+    private AutowiredAnnotationBeanPostProcessor autowiredAnnotationBeanPostProcessor;
+    @Override
+    public void afterSingletonsInstantiated() {
+        autowiredAnnotationBeanPostProcessor.processInjection(new UserHelper());
+    }
+}
+```
+
