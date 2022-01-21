@@ -2,3 +2,8 @@
 
 [开始学习](spring-security-oauth2/)
 
+https://www.jianshu.com/p/d5ce890c67f7
+
+https://www.cnblogs.com/summerday152/p/13635948.html
+
+https://blog.csdn.net/huanghuitan/article/details/72327125

@@ -43,6 +43,7 @@
   * [tk.mybatis 问题](essay/tkmybatis-问题.md)
 * **JSON**
   * [FastJson](essay/FastJson-应用.md)
+  * [jackjson解决 Unrecognized field](essay/jackjson-解决-Unrecognized-field.md)
 * **Redis**
   * [Redis 保存数字 value 报错](essay/Redis-保存数字-value-报错.md)
   * [Redis 持久化的几种方式](essay/Redis-持久化的几种方式.md)

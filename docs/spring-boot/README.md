@@ -24,3 +24,9 @@ Spring5.x 是 Java 界首个支持响应式的 Web 框架，是 Spring 的一个
 Spring WebFlux 同时支持使用旧的 Spring MVC 注解声明 `Reactive Controller`。和传统的 `MVC Controller` 不同，`Reactive Controller` 操作的是 **非阻塞** 的 `ServerHttpRequest` 和 `ServerHttpResponse`，而不再是 Spring MVC 里的 HttpServletRequest 和 HttpServletResponse。
 
 至此也代表着 Java 正式迎来了响应式异步编程的时代。
+
+## websocket
+
+https://www.cnblogs.com/kiwifly/p/11729304.html
+
+https://segmentfault.com/a/1190000020864438?utm_source=tag-newest
