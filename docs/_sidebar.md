@@ -21,7 +21,7 @@
   * [Nginx](nginx/)
   * [Elastic Stack](elastic-stack/)
   * [消息队列 MQ](消息队列-MQ.md)
-  * [Zookeeper](spring-cloud-netflix/)
+  * [Zookeeper](zookeeper.md)
   * [阿里系开源中间件](middleware-ali/)
   * [Sharding JDBC](docs-docker/)
 * 高级
