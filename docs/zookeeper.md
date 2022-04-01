@@ -123,6 +123,37 @@ mkdir zookeeper
 
    ![1648464075189](assets/1648464075189.png)
 
+### 集群脚本
+
+首先要能无密码登录到其他节点
+
+```shell
+#!/bin/bash
+
+case $1 in
+"start"){
+    for i in 192.168.80.232 192.168.80.234 192.168.80.236
+    do
+    	echo ---------------zookeeper $i 启动
+    	ssh  $i   "/usr/local/software/zookeeper/bin/zkServer.sh start"
+    done
+};;
+"stop"){
+    for i in 192.168.80.232 192.168.80.234 192.168.80.236
+    do
+    	echo ---------------zookeeper $i 停止
+    	ssh  $i   "/usr/local/software/zookeeper/bin/zkServer.sh stop"
+    done
+};;
+"status"){
+    for i in 192.168.80.232 192.168.80.234 192.168.80.236
+    do
+    	echo ---------------zookeeper $i 状态
+    	ssh  $i   "/usr/local/software/zookeeper/bin/zkServer.sh status"
+    done
+};;
+```
+
 ## 配置参数解读
 
 zk 中的配置文件 zoo.cfg 中参数含义解读如下：
