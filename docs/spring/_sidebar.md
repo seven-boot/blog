@@ -23,6 +23,7 @@
   * [SpringSecurity 权限注解](spring/SpringSecurity-权限注解.md)
   * [SpringSecurity 中 hasRole 和 hasAuthority 有区别吗](spring/SpringSecurity-中-hasRole-和-hasAuthority-有区别吗.md)
   * [SpringSecurity 自定义 UserDetails 问题](spring/SpringSecurity-自定义-UserDetails-问题.md)
+  * [SpringSecurity @AuthenticationPrincipal](spring/SpringSecurity-@AuthenticationPrincipal.md)
 
 - 待整理博客
   - [Todo Blog](spring/Todo-Blog.md)

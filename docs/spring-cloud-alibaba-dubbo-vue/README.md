@@ -47,3 +47,12 @@ https://blog.csdn.net/saygood999/article/details/107981005
 https://blog.51cto.com/u_12466008/3104818
 
 https://www.cnblogs.com/huanshilang/p/10620048.html
+
+- 简介
+  - 项目介绍
+  - 项目整体效果展示
+  - 分布式基础概念
+  - 微服务架构图
+  - 微服务划分图
+- 环境
+  - 创建虚拟机
