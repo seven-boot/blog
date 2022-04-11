@@ -6,3 +6,4 @@
 - **Rocket MQ**
   - []()
 - **Kafka**
+  - [Kafka 安装](mq/kafka-安装.md)

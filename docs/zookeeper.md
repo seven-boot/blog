@@ -170,3 +170,5 @@ zk 中的配置文件 zoo.cfg 中参数含义解读如下：
 ## 可视化界面
 
 http://www.redisant.cn/za/buy
+
+![1649668995263](assets/1649668995263.png)
